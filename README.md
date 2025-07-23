@@ -10,14 +10,14 @@ This script installs the **latest stable versions** of Docker Engine and Docker 
 
 ```bash
 git clone https://github.com/khalidwalit/setup_vm.git
-cd docker-install-ubuntu
+cd setup_vm
 ```
 
 ### 1. Clone this repository
 
 ```bash
-chmod +x install_docker.sh
-./install_docker.sh
+chmod +x install.sh
+./install.sh
 ```
 
 ### 1. Clone this repository
