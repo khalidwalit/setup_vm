@@ -13,14 +13,14 @@ git clone https://github.com/khalidwalit/setup_vm.git
 cd setup_vm
 ```
 
-### 2. Clone this repository
+### 2. Run the installer
 
 ```bash
 chmod +x install.sh
 ./install.sh
 ```
 
-### 3. Clone this repository
+### 3. Post-installation
 
 ```bash
 docker --version
