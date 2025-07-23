@@ -13,16 +13,25 @@ git clone https://github.com/khalidwalit/setup_vm.git
 cd setup_vm
 ```
 
-### 1. Clone this repository
+### 2. Clone this repository
 
 ```bash
 chmod +x install.sh
 ./install.sh
 ```
 
-### 1. Clone this repository
+### 3. Clone this repository
 
 ```bash
 docker --version
 docker compose version
+```
+
+
+### 3. Generate ssh key
+
+```bash
+chmod +x generate_ssh_key.sh
+sudo ./generate_ssh_key.sh your_email@example.com
+sudo cat /root/.ssh/github_ed25519.pub
 ```
